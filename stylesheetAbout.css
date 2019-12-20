@@ -1,0 +1,60 @@
+/*Sets the desert picture as the background*/
+body {
+	background-image: url(road.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+/*The id set for the "Redlines" title*/
+#p01 {
+	text-align: center;
+	color: #E62225;
+	font-family: impact, arial, sans-serif;
+	font-size: 500%;
+	padding: 0px;
+	margin: 30px;
+	text-shadow: 2px 2px 5px #000000;
+}
+/*div.links and a.links are the same, in the code both the div(for multiple links on same line) and a(for the link) have to have class links*/
+div.links {
+	text-align: center;
+	color: #EEC1C3;
+	font-family: impact, arial, sans-serif;
+	font-size: 100%;
+	text-shadow: 2px 2px 5px #9E7173;
+	text-decoration: none;
+	margin: 3px;
+}
+
+a.links {
+	text-align: center;
+	color: #EEC1C3;
+	font-family: impact, arial, sans-serif;
+	font-size: 100%;
+	text-shadow: 2px 2px 5px #9E7173;
+	text-decoration: none;
+	margin: 3px;
+}
+/*Turns the link off-white when you hover*/
+a:hover {
+	color: #FEF1F3;
+}
+/*A pure white indicating the page you're on*/
+span.select {
+	color: #FFFFFF;
+	margin: 3px;
+}
+/*Settings for the block with the about*/
+div.about {
+	background-color: rgba(127, 127, 127, 0.7);
+	height: 200px;
+	width: 700px;
+	margin: auto;
+}
+/*The text that is the about*/
+p.about {
+	margin: 10px;
+	font-size: 120%;
+	text-align: center;
+	font-family: impact, arial, sans-serif;
+}
